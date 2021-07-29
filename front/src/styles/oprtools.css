@@ -1,0 +1,68 @@
+.blue-container {
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	padding:20px;
+}
+.app-container {
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	padding:20px;
+}
+
+.blueTable {
+	border: 1px solid #1C6EA4;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.blueTable td {
+	font-size: 14px;
+	border: 1px solid #AAAAAA;
+	padding: 5px 8px 5px 8px;
+	text-overflow: ellipsis;
+	max-width:250px;
+}
+
+
+h4 {
+	display: block;
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em;
+	-webkit-margin-before: 1.33em;
+	-webkit-margin-after: 1.33em;
+	font-size:18px;
+	font-weight:bold
+}
+
+.el-tag {
+	background-color: rgba(64,158,255,.1);
+	white-space: nowrap;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.el-table .cell {
+  white-space:pre-line;
+  text-align: center
+}
+
+.el-table th.gutter{
+	display: table-cell!important;
+}
+
+.indent{
+  margin-left:30px;
+}
+
+.choose{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	width:290px;
+	white-space:nowrap;
+}
